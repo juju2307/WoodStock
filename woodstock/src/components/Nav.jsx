@@ -1,16 +1,25 @@
 import React from 'react';
 
+
 const Nav = () => {
     return (
-        <nav className="menu">
-            <h2 className="logo"></h2>
-            <ul>
-                <li><a href="">About</li>
-                <li><a href="">Shop</li>
-                <li><a href="">Team</li>
-                <li><a href="">Contact</li>
-            </ul>
-        </nav>
+        <div className="menu">
+            <nav>
+                 
+                 <ul className="nav">
+                     <li><img className="logo"src="" alt="logo"/></li>
+                     <li><a href=" ">About</a></li>
+                     <li><a href=" ">Shop</a></li>
+                     <li><a href=" ">Team</a></li>
+                     <li><a href=" ">Contact</a></li>
+                 </ul>
+            </nav>
+            <div className="accueil">
+                <h1 className="title">WOOD</h1>
+                <h1 className="title">STOCK</h1>
+            </div>
+            <div className="verticalline"></div>
+        </div>
     );
 }
 
