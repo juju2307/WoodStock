@@ -10,7 +10,7 @@ const Contact = () => {
                      <input className="lastform" type="text" name="lastname" placeholder="LAST NAME"/>
                 </div>
                 <input className="mailform" type="email" name="mail" placeholder="MAIL ADRESS"/>
-                <input className="textform" type="textarea" name="message" placeholder="MESSAGE"/>  
+                <textarea className="textform" name="message" placeholder="MESSAGE" rows="10" cols="50"/>  
             </form>
         </div>   
     );

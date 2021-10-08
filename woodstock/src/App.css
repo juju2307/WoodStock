@@ -417,9 +417,10 @@ body{
                     }
                     .textform{
                       display: flex;
-                      height: 275px;
-                      border-radius: 34px;
+                      border-radius: 32px;
                       border: 1px solid #BCB5B5;
+                      padding-left: 20px;
+                      padding-top: 10px;
                     }
 
   .footer{
