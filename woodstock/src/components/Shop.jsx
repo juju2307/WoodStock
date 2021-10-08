@@ -1,5 +1,5 @@
 import React from 'react';
-import Chaiseshop from '../img/chaiseshop.jpg'
+import Chaiseshop from '../img/chaiseshop.png'
 
 const Shop = () => {
     return (

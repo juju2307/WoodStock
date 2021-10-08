@@ -1,5 +1,5 @@
 import React from 'react';
-import Chaiseabout from '../img/chaiseabout.jpg'
+import Chaiseabout from '../img/chaiseabout.png'
 
 const About = () => {
     return (
